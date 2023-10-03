@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+
+    background: linear-gradient(#fbcddc 10%, #a5d6f6 100%);
+    background-attachment: fixed;
+
+    user-select: none;
+}
+
