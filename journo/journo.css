@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+
+    background-color: linear-gradient(#efcdfb 10%, #a5d6f6 100%);
+    /*background-color: black;*/
+    background-attachment: fixed;
+
+    user-select: none;
+}
+
