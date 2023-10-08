@@ -14,7 +14,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: 1vw;
 
     background: linear-gradient(#d1fbcd 10%, #9cbfd6 100%);
     /*background-color: black;*/
@@ -36,6 +36,7 @@ h1, h2, h3, h4, span {
     gap: 13px;  
     /*max-width: 916px;*/
     width: calc(100% - 20px);
+    padding: 1vw;
 }
 
 .flip-card {
@@ -61,6 +62,8 @@ h1, h2, h3, h4, span {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    /*background-image: url('../content/journo/news.png');
+    background-size:contain;*/
 }
 
 .flip-card:hover .flip-card-inner {
@@ -86,13 +89,11 @@ h1, h2, h3, h4, span {
 
 .flip-card-date {
     align-items: center;
-    position: absolute;
-    display: flex;
     justify-content: center;
     overflow: hidden;
     border-radius: 10px;
-    top: 8px;
-    right: 5%;
+    padding-top: 8px;
+    padding-right: 8px;
     font-family: "DIN Alternate";
     text-align: right;
     color: #998263;
@@ -100,13 +101,62 @@ h1, h2, h3, h4, span {
 }
 
 .flip-card-title {
-    position: absolute;
-    top: 50%;
-    /*left: 50%;*/
-    transform: translate(15%, 50%);
+    /*position: absolute;*/
+
+    padding-top: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+
     font-family: "DIN Alternate";
     text-align: center;
     color: #574a3a;
-    font-size: 17pt;
+    font-size: 18pt;
 }
 
+.flip-card-deck {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translateY(10px);
+
+    font-family: "DIN Alternate";
+    text-align: justify;
+    font-size: 12pt;
+    color:#998263;
+}
+
+.flip-card-article {
+    color:#998263;
+    padding-top: 20px;
+    font-family: "DIN Alternate";
+    text-align: justify;
+    font-size: 12pt;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flip-card-back-top {
+    color:#574a3a;
+    padding-top: 15px;
+    font-family: "DIN Alternate";
+    text-align: center;
+    font-size: 12pt;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flip-card-back-bot {
+    color:#574a3a;
+    position: absolute;
+    /*padding-top: 5px;*/
+    padding-bottom: 5px;
+    bottom:2%;
+    right: 0;
+    font-family: "DIN Alternate";
+    text-align: center;
+    font-size: 12pt;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:link{text-decoration: none;}
