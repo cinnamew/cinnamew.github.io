@@ -160,3 +160,91 @@ h1, h2, h3, h4, span {
 }
 
 a:link{text-decoration: none;}
+
+/* spreads */
+#spreads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;  
+    /*max-width: 916px;*/
+    width: calc(100% - 20px);
+    padding: 1vw;
+    padding-left: 2vw;
+}
+
+.spread {
+    border-radius: 10px;
+    padding-right: 30px;
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Exo thin font from Google. */
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+ @-webkit-keyframes bg-scrolling-reverse {
+	 100% {
+		background-position: 50px 50px;
+	}
+}
+ @-moz-keyframes bg-scrolling-reverse {
+	 100% {
+		background-position: 50px 50px;
+	}
+}
+ @-o-keyframes bg-scrolling-reverse {
+	 100% {
+		background-position: 50px 50px;
+	}
+}
+ @keyframes bg-scrolling-reverse {
+	 100% {
+		background-position: 50px 50px;
+	}
+}
+ @-webkit-keyframes bg-scrolling {
+	 0% {
+		background-position: 50px 50px;
+	}
+}
+ @-moz-keyframes bg-scrolling {
+	 0% {
+		background-position: 50px 50px;
+	}
+}
+ @-o-keyframes bg-scrolling {
+	 0% {
+		background-position: 50px 50px;
+	}
+}
+ @keyframes bg-scrolling {
+	 0% {
+		background-position: 50px 50px;
+	}
+}
+/* Main styles */
+.spread-back {
+	/* img size is 50x50 */
+	 background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+	 -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+	/* Safari 4+ */
+	 -moz-animation: bg-scrolling-reverse 0.92s infinite;
+	/* Fx 5+ */
+	 -o-animation: bg-scrolling-reverse 0.92s infinite;
+	/* Opera 12+ */
+	 animation: bg-scrolling-reverse 0.92s infinite;
+	/* IE 10+ */
+	 -webkit-animation-timing-function: linear;
+	 -moz-animation-timing-function: linear;
+	 -o-animation-timing-function: linear;
+	 animation-timing-function: linear;
+     border-radius: 10px;
+     padding-top: 30px;
+     z-index: -1;
+     padding-left: 50px;
+
+     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+ 
