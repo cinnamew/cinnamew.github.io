@@ -127,7 +127,7 @@ h1, h2, h3, h4, span {
 
 .flip-card-article {
     color:#998263;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: "DIN Alternate";
     text-align: justify;
     font-size: 12pt;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, span {
 
 .flip-card-back-top {
     color:#574a3a;
-    padding-top: 15px;
+    padding-top: 40px;
     font-family: "DIN Alternate";
     text-align: center;
     font-size: 12pt;
