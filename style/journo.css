@@ -14,7 +14,7 @@
 }
 
 body {
-    margin: 1vw;
+    padding: 1vw;
 
     background: linear-gradient(#d1fbcd 10%, #9cbfd6 100%);
     /*background-color: black;*/

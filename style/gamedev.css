@@ -5,13 +5,21 @@
 
 body {
     align-items: center;
-    overflow: hidden;
     justify-content: center;
-    background: linear-gradient(#fbcddc 10%, #a5d6f6 100%);
-    padding: 0px;
+    background: linear-gradient(#e9d5ec 10%, #a5d6f6 100%);
+    padding: 1vw;
     margin: 0px;
+    font-family: "Rubik", sans-serif;
+    color:rgb(154, 109, 150);
 }
 
+.topbar {
+  margin: 0vw;
+}
+
+#test {
+  
+}
 
 #cards {
     display: flex;
@@ -123,4 +131,4 @@ h1, h2, h3, h4, span {
   margin-top: 8px;
 }
 
-a:link{text-decoration: none;}
+a:link{text-decoration: none; color:rgba(80, 19, 55, 0.785);}

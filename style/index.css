@@ -19,6 +19,7 @@ body {
     background-attachment: fixed;
 
     user-select: none;
+    user-select:auto;
 }
 
 img {
