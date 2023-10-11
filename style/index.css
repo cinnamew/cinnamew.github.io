@@ -73,3 +73,8 @@ img {
 .link {
     padding-left: 2vw;
 }
+
+::selection {
+    background: rgba(118, 250, 255, 0.164);
+    text-shadow: 0px 0px 2px;
+  }

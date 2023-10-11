@@ -131,4 +131,14 @@ h1, h2, h3, h4, span {
   margin-top: 8px;
 }
 
-a:link{text-decoration: none; color:rgba(80, 19, 55, 0.785);}
+a:link{text-decoration: none;}
+
+.about {
+  padding-left: 1vw;
+}
+.about a:link {
+  color:rgb(191, 51, 177);
+}
+.about a:visited {
+  color:rgb(152, 38, 140);
+}

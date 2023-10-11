@@ -20,7 +20,6 @@ body {
     /*background-color: black;*/
     background-attachment: fixed;
 
-    user-select: none;
 }
 
 h1, h2, h3, h4, span {
