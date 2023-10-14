@@ -18,8 +18,9 @@ body {
     background: linear-gradient(#fbcddc 10%, #a5d6f6 100%);
     background-attachment: fixed;
 
-    user-select: none;
-    user-select:auto;
+    user-select: auto;
+    color:#72456f;
+    font-family: "Lilita One";
 }
 
 img {
@@ -27,11 +28,25 @@ img {
     pointer-events: none;
 }
 
+footer {
+    padding: 2vw;
+}
+
+.temp {
+    position:absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    color: #cb8dc7;
+    font-family: "Lilita One";
+    text-align:center;
+}
+
 .topbar {
     margin: 5px;
     padding: 10px 20px 10px 20px;
 
-    background-color: #efdcea;
+    background-color: #f9cfee;
     box-shadow: 0px 0px 4px #948590;
     border-radius: 5px;
 
@@ -77,4 +92,5 @@ img {
 ::selection {
     background: rgba(118, 250, 255, 0.164);
     text-shadow: 0px 0px 2px;
+    padding: 0px;
   }

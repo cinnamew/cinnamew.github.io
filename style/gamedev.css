@@ -7,21 +7,33 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(#e9d5ec 10%, #a5d6f6 100%);
-    padding: 1vw;
     margin: 0px;
     font-family: "Rubik", sans-serif;
     color:rgb(154, 109, 150);
+    text-shadow: none;
+    box-shadow: none;
 }
 
-.topbar {
-  margin: 0vw;
+#idek {
+  padding-left: 5vw;
+  padding-top: 1vw;
 }
+
+
 
 #test {
   
 }
 
+.title {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 4vw 2fr;
+}
+
 #cards {
+  padding-left: 1vw;
+  padding-top: 1vw;
     display: flex;
     flex-wrap: wrap;
     gap: 13px;  
@@ -102,6 +114,10 @@ h1, h2, h3, h4, span {
   margin: 0px;
 }
 
+h1 {
+  font-size: 4vw;
+}
+
 .card-image {
   align-items: center;
   display: flex;
@@ -134,11 +150,18 @@ h1, h2, h3, h4, span {
 a:link{text-decoration: none;}
 
 .about {
-  padding-left: 1vw;
+  padding-left: 1.5vw;
 }
 .about a:link {
   color:rgb(191, 51, 177);
 }
 .about a:visited {
   color:rgb(152, 38, 140);
+}
+
+.background {
+  position:absolute;
+  user-select: none;
+  z-index: -1;
+  width: 100%;
 }
