@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(../content/fonts/Rubik/Rubik-VariableFont_wght.ttf);
+  }
+
+body {
+    margin: 0px;
+
+    background: linear-gradient(#996778 10%, #2f4351 100%);
+    background-attachment: fixed;
+
+    user-select: auto;
+    color:#ffffff;
+    font-family: "Rubik";
+}
+
+.topbar {
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+
+    background-color: #e19fd1;
+    box-shadow: 0px 0px 4px #948590;
+    border-radius: 5px;
+
+    font-family: "Lilita One", cursive;
+    font-size: 3vw;
+
+    letter-spacing: 3px;
+    text-shadow: 2px 2px pink;
+
+    height: 4vw;
+}
+
+/*h1, h2, h3, h4, span {
+    color: rgb(122, 79, 118);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+  }*/
+
+.piece {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 5vw;
+    align-self: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.piecedesc {
+    float: left;
+    padding-left: 1vw;
+}
+
+.pieceimg {
+    max-width: 110%;
+    height: auto;
+    display:flex;
+    
+    /*float: right;*/
+}

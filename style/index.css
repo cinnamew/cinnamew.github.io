@@ -9,7 +9,13 @@
 }
 
 html, body {
-    cursor: url("../content/cursor.png"), default;
+    cursor: url("../content/cursors/cursorblank50.png"), default;    
+}
+
+a:link{text-decoration: none; cursor: url("../content/cursors/cursorhover50.png"), pointer;}
+
+a:active{
+    cursor: url("../content/cursors/cursorclick50.png"), pointer;
 }
 
 body {
@@ -94,3 +100,7 @@ footer {
     text-shadow: 0px 0px 2px;
     padding: 0px;
   }
+
+.second {
+    height: 500%;
+}
