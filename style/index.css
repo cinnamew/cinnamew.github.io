@@ -9,13 +9,13 @@
 }
 
 html, body {
-    cursor: url("../content/cursors/cursorblank50.png"), default;    
+    cursor: url("../content/cursors/cursorblank.png"), default;    
 }
 
-a:link{text-decoration: none; cursor: url("../content/cursors/cursorhover50.png"), pointer;}
+a:link{text-decoration: none; cursor: url("../content/cursors/cursor40tilt.png"), pointer;}
 
 a:active{
-    cursor: url("../content/cursors/cursorclick50.png"), pointer;
+    cursor: url("../content/cursors/cursor45tilt.png"), pointer;
 }
 
 body {
