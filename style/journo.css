@@ -223,6 +223,14 @@ a:link{text-decoration: none;cursor: url("../content/cursors/cursorhover.png");}
 		background-position: 50px 50px;
 	}
 }
+
+.about a:link {
+    color:rgb(191, 51, 177);
+  }
+  .about a:visited {
+    color:rgb(152, 38, 140);
+  }
+
 /* Main styles */
 .spread-back {
 	/* img size is 50x50 */
